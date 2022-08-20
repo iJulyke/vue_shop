@@ -5539,6 +5539,13 @@
     "hash-sum" "^1.0.2"
     "loader-utils" "^1.0.2"
 
+"vue-table-with-tree-grid@^0.2.4":
+  "integrity" "sha512-V9+wckhA8u1K6RBu7m7bjUEyRrjFFnGVaRghEjzn/fIQJc2VRxVbq8qFXIRlTTC7XUQwbiEK0Xlp4zOXP5W0Gg=="
+  "resolved" "https://registry.npmmirror.com/vue-table-with-tree-grid/-/vue-table-with-tree-grid-0.2.4.tgz"
+  "version" "0.2.4"
+  dependencies:
+    "vue" "^2.4.3"
+
 "vue-template-compiler@^2.0.0", "vue-template-compiler@^2.6.14":
   "integrity" "sha512-eQqdcUpJKJpBRPDdxCNsqUoT0edNvdt1jFjtVnVS/LPPmr0BU2jWzXlrf6BVMeODtdLewB3j8j3WjNiB+V+giw=="
   "resolved" "https://registry.npmmirror.com/vue-template-compiler/-/vue-template-compiler-2.7.8.tgz"
@@ -5552,7 +5559,7 @@
   "resolved" "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.2.13", "vue@^2.5.17", "vue@^2.6.14":
+"vue@*", "vue@^2 || ^3.2.13", "vue@^2.4.3", "vue@^2.5.17", "vue@^2.6.14":
   "integrity" "sha512-ncwlZx5qOcn754bCu5/tS/IWPhXHopfit79cx+uIlLMyt3vCMGcXai5yCG5y+I6cDmEj4ukRYyZail9FTQh7lQ=="
   "resolved" "https://registry.npmmirror.com/vue/-/vue-2.7.8.tgz"
   "version" "2.7.8"
