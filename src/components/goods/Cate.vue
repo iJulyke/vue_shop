@@ -219,7 +219,6 @@ export default {
                 this.addCateForm.cat_level = 0
                 this.addCateForm.cat_pid = 0
             }
-            console.log(this.selectedKeys)
         },
         //点击按钮添加新的分类
         addCate(){
@@ -268,7 +267,6 @@ export default {
         },
         //删除分类
         async delCate(id){
-            console.log(cate)
             const comfirmResult = await this.$confirm('此操作将永久删除该分类, 是否继续?', '提示', {
                 confirmButtonText: '确定',
                 cancelButtonText: '取消',
@@ -276,7 +274,6 @@ export default {
             }).catch(err =>{
                 return err
             })
-            console.log(comfirmResult)
             if(comfirmResult == 'confirm'){
                 const { data:res } = await this.$http.delete('categories/'+ id)
                 if(res.meta.status !== 200){
